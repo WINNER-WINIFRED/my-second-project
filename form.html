@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <div>
+                <h1>My Bio</h1>
+            </div>
+            <div>
+                <label for="name">Name:</label><br/>
+                <input class="form-group" type="text" name="name" id="name" placeholder="Name..."/>
+            </div>
+            <div>
+                <label for="email">Email:</label><br/>
+                <input class = "form-group" type="text" name="email" id="email" placeholder="Email..."/>
+            </div>
+            <div>
+                <label for="password">password</label></div><br/>
+                <input class = "form-group" type="password" name="password" id="password" placeholder="password..."/>
+            <div>
+                <label for="gender">male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="gender">female</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+            <div>
+                <label for="age">18-30</label>
+                <input type="radio" name="age" id="18-30">
+                <label for="age">31-40</label>
+                <input type="radio" name="age" id="31-40">
+                <label for="age">41-60</label>
+                <input type="radio" name="age" id="41-60">
+            </div>
+            <div>
+                <h3>My skills</h3>
+                <label for="java">Java</label>
+                <input type="checkbox" name="java" id="java"/>
+                <label for="javascript">Javascript</label>
+                <input type="checkbox" name="javascript" id="javascript"/>
+                <label for="html">Html</label>
+                <input type="checkbox" name="html" id="html" placeholder=""/>
+            </div>
+            <div>
+                <label for="number">Number</label><br/>
+                <input class="form-group" type="number" name="Number" id="Number">
+            </div>
+            <div>
+            <label for="about">About yourself</label><br/>
+            <textarea
+            name="about"
+            id="about"
+            placeholder="about yourself..."
+            rows="10"
+            cols="50"></textarea>
+            </div>
+            <div class="but">
+                <button type="button">submit</button>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
